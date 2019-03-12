@@ -10,4 +10,4 @@ services:
       - .:/app:cached
     stdin_open: true
     tty: true
-    command: /bin/sh
+    command: yarn dev
